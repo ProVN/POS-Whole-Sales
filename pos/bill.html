@@ -1,0 +1,79 @@
+<html>
+	<head>
+        <style type="text/css">
+            {style}
+        </style>
+    </head>
+	<body style="font-size:14pt;">
+	<div style="width:415px; text-align:center">
+        <div style="float:left">
+            <img src="http://s21.postimg.org/db4d1u76f/SEAP_logo_v02_copy02_2.jpg" style="float:left; width: 130px;"/>
+        </div>
+        <div style="float:left; margin-left:20px">
+            <h1>TAX INVOICE</h1>
+        </div>
+        <div style="float:right; margin-top:-20px; margin-right:20px;">
+		<table>
+			<tr>
+				<td style="width:100px; border:none; text-align:left">Invoice No</td>
+				<td style="border:none; text-align:left">{invoice_no}</td>
+			</tr>
+			<tr>
+				<td style="border:none; text-align:left">Date</td>
+				<td style="border:none; text-align:left">{date}</td>
+			</tr>
+			<tr>
+				<td style="border:none; text-align:left">Credit</td>
+				<td style="border:none; text-align:left">{credit}</td>
+			</tr>
+		</table>
+        </div>
+    <div style="clear:both"></div>
+	<p style="text-align:left"><u>{to_from}:</u> <b>{contact_company_name}</b></p>
+		<table style="width:100%; margin-bottom: 10px;">
+			<thead>
+				<tr>
+					<th>Produce</th>
+					<th>Qty</th>
+					<th>Price</th>
+					<th>$$</th>
+				</tr>				
+			</thead>
+			<tbody>
+				{tbody}
+			<tbody>			
+		</table>
+	<div style="float:left; text-align:left">
+		<u>Sale Person:</u>{sale_person}<br/>
+		<u>Contact:</u>	
+		<br/><br/><br/>
+		No claims accept<br/>
+		after 24 hours
+	</div>	
+	<div style="float:right">
+		<table>
+			<tr>
+				<td style="border:none; text-align:left">Dismount</td>
+				<td style="text-align:right; width:110px; border:none">{dismount}</td>
+			</tr>
+			<tr>
+				<td style="border:none; text-align:left"><b><u>TOTAL</u></b></td>
+				<td style="text-align:right; border:none"><b>{total}</b></td>
+			</tr>
+			<tr>
+				<td style="border:none; text-align:left">GST inc</td>
+				<td style="text-align:right; border:none">{gst}</td>
+			</tr>
+			<tr>
+				<td style="border:none; text-align:left">Paid</td>
+				<td style="text-align:right; border:none">{paid}</td>
+			</tr>
+			<tr>
+				<td style="border:none; text-align:left"><b><u>BALANCE</u></b></td>
+				<td style="text-align:right; border:none"><b>{balance}</b></td>
+			</tr>
+		<table>
+	</div>	
+	</div>
+	</body>	
+</html>

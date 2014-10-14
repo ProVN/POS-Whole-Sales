@@ -1,0 +1,21 @@
+table {
+    width:100%;
+    border-collapse: collapse;
+}
+
+table th {
+    border: 1px solid gray;
+    background-color:gray;
+    height: 30px;
+    color:white;
+    font-family:'Arial';
+    font-size: 10pt;
+}
+
+table td {
+    border: 1px solid gray;
+    height: 30px;
+    font-family:'Arial';
+    font-size: 10pt;
+    text-align:center;
+}

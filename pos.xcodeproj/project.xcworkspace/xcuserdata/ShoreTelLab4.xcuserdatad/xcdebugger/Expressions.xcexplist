@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[DBManager viewLogin]:DBManager.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[MasterViewController masterView]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[DBManager requestDataCompleted:]:DBManager.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[ContactsViewController viewDidLoad]:ContactsViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.table">
+            </PersistentString>
+            <PersistentString
+               value = "self.client">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[DBCaches getObjectInCaches:withId:]:DBCaches.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[obj.Id intValue]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
