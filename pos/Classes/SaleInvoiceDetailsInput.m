@@ -103,7 +103,8 @@
     {
         if(self.transactionType == TransactionTypeSale) {
             POSSaleInvoiceDetail* obj = (POSSaleInvoiceDetail*)invoice;
-            obj.ProductID = _product.Id;
+            if(obj.ProductID == nil)
+                obj.ProductID = _product.Id;
             obj.Quantity = [NSNumber numberWithInteger:quantity];
             obj.SalePrice = [NSNumber numberWithFloat:price];
             obj.TotalAmount = [NSNumber numberWithFloat:amount];
@@ -115,7 +116,8 @@
         else
         {
             POSPurchaseDetail* obj = (POSPurchaseDetail*)invoice;
-            obj.ProductID = _product.Id;
+            if(obj.ProductID == nil)
+                obj.ProductID = _product.Id;
             obj.Quantity = [NSNumber numberWithInteger:quantity];
             obj.PurchasePrice = [NSNumber numberWithFloat:price];
             obj.TotalAmount = [NSNumber numberWithFloat:amount];
