@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "pos/Classes/TransactionFormViewController.m"
-            timestampString = "434632578.5065"
+            timestampString = "434975118.473485"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1206"
-            endingLineNumber = "1206"
+            startingLineNumber = "1231"
+            endingLineNumber = "1231"
             landmarkName = "-insertTransactionPayment"
             landmarkType = "5">
          </BreakpointContent>
@@ -58,28 +58,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "pos/Classes/TransactionFormViewController.m"
-            timestampString = "434632578.5065"
+            timestampString = "434975118.473485"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "821"
-            endingLineNumber = "821"
+            startingLineNumber = "845"
+            endingLineNumber = "845"
             landmarkName = "-collectionView:didSelectItemAtIndexPath:"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "pos/Classes/SaleInvoiceDetailsInput.m"
-            timestampString = "427800849.69769"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "78"
-            endingLineNumber = "78"
-            landmarkName = "-loadData"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -202,11 +186,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "pos/Classes/TransactionFormViewController.m"
-            timestampString = "434632578.5065"
+            timestampString = "434975118.473485"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "868"
-            endingLineNumber = "868"
+            startingLineNumber = "892"
+            endingLineNumber = "892"
             landmarkName = "-tableView:commitEditingStyle:forRowAtIndexPath:"
             landmarkType = "5">
          </BreakpointContent>
@@ -218,11 +202,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "pos/Classes/TransactionFormViewController.m"
-            timestampString = "434632578.5065"
+            timestampString = "434975118.473485"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "863"
-            endingLineNumber = "863"
+            startingLineNumber = "887"
+            endingLineNumber = "887"
             landmarkName = "-tableView:canEditRowAtIndexPath:"
             landmarkType = "5">
          </BreakpointContent>
@@ -298,11 +282,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "pos/Classes/TransactionFormViewController.m"
-            timestampString = "433247905.359681"
+            timestampString = "434975118.473485"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "482"
-            endingLineNumber = "482"
+            startingLineNumber = "506"
+            endingLineNumber = "506"
             landmarkName = "-saveData"
             landmarkType = "5">
          </BreakpointContent>
@@ -314,11 +298,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "pos/Classes/TransactionFormViewController.m"
-            timestampString = "434632578.5065"
+            timestampString = "434975118.473485"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1230"
-            endingLineNumber = "1230"
+            startingLineNumber = "1255"
+            endingLineNumber = "1255"
             landmarkName = "-saveDataCompleted:"
             landmarkType = "5">
          </BreakpointContent>
@@ -330,11 +314,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "pos/Classes/TransactionFormViewController.m"
-            timestampString = "434632578.5065"
+            timestampString = "434975118.473485"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1241"
-            endingLineNumber = "1241"
+            startingLineNumber = "1266"
+            endingLineNumber = "1266"
             landmarkName = "-saveDataCompleted:"
             landmarkType = "5">
          </BreakpointContent>
@@ -346,11 +330,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "pos/Classes/TransactionFormViewController.m"
-            timestampString = "434632578.5065"
+            timestampString = "434975118.473485"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1177"
-            endingLineNumber = "1177"
+            startingLineNumber = "1202"
+            endingLineNumber = "1202"
             landmarkName = "-insertTransactionDetail"
             landmarkType = "5">
          </BreakpointContent>
@@ -362,11 +346,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "pos/Classes/TransactionFormViewController.m"
-            timestampString = "434632578.5065"
+            timestampString = "434975118.473485"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1228"
-            endingLineNumber = "1228"
+            startingLineNumber = "1253"
+            endingLineNumber = "1253"
             landmarkName = "-saveDataCompleted:"
             landmarkType = "5">
          </BreakpointContent>
@@ -425,7 +409,7 @@
                   symbolName = "-[DBManager saveData:item:title:message:]"
                   moduleName = "POS WholeSale"
                   urlString = "file:///Users/ltran/Desktop/pos/pos/Classes/Managers/DBManager.m"
-                  timestampString = "434632842.97245"
+                  timestampString = "434977181.10097"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "174"
@@ -439,7 +423,7 @@
                   symbolName = "__41-[DBManager saveData:item:title:message:]_block_invoke131"
                   moduleName = "POS WholeSale"
                   urlString = "file:///Users/ltran/Desktop/pos/pos/Classes/Managers/DBManager.m"
-                  timestampString = "434632842.972697"
+                  timestampString = "434977181.101198"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "174"
@@ -471,28 +455,12 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "pos/Classes/Managers/DBManager.m"
-            timestampString = "433250924.402711"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "682"
-            endingLineNumber = "682"
-            landmarkName = "-saveCache:items:"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
             filePath = "pos/Classes/TransactionFormViewController.m"
-            timestampString = "433248944.238255"
+            timestampString = "434975118.473485"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "130"
-            endingLineNumber = "130"
+            startingLineNumber = "140"
+            endingLineNumber = "140"
             landmarkName = "-viewDidLoad"
             landmarkType = "5">
          </BreakpointContent>
@@ -504,11 +472,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "pos/Classes/TransactionFormViewController.m"
-            timestampString = "433248968.849398"
+            timestampString = "434975118.473485"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "565"
-            endingLineNumber = "565"
+            startingLineNumber = "589"
+            endingLineNumber = "589"
             landmarkName = "-requestData"
             landmarkType = "5">
          </BreakpointContent>
@@ -520,11 +488,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "pos/Classes/TransactionFormViewController.m"
-            timestampString = "433249367.976319"
+            timestampString = "434975118.473485"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "571"
-            endingLineNumber = "571"
+            startingLineNumber = "595"
+            endingLineNumber = "595"
             landmarkName = "-requestData"
             landmarkType = "5">
          </BreakpointContent>
@@ -616,11 +584,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "pos/Classes/TransactionFormViewController.m"
-            timestampString = "434631798.870119"
+            timestampString = "434975373.143878"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "692"
-            endingLineNumber = "692"
+            startingLineNumber = "799"
+            endingLineNumber = "799"
             landmarkName = "-collectionView:cellForItemAtIndexPath:"
             landmarkType = "5">
          </BreakpointContent>

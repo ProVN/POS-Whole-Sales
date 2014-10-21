@@ -44,6 +44,8 @@
     UIAlertView *loadingAlert;
     CGRect keyboardFrame;
     NSDate *selectedDate;
+    
+    UICollectionView* _collectionView;
 }
 
 #pragma mark UIViewController Overwrite
@@ -75,6 +77,14 @@
     self.txtIssuedDate.delegate = self;
     
     UIColor *backgroundColor = [UIColor clearColor];
+    
+    POSCollectionFlowLayout *paymentLayout1 = [[POSCollectionFlowLayout alloc] init];
+    _collectionView =[[UICollectionView alloc] initWithFrame:CGRectZero collectionViewLayout:paymentLayout1];
+    [_collectionView registerClass:[ProductCollectionViewCell class] forCellWithReuseIdentifier:@"Cells"];
+    [_collectionView setBackgroundColor:backgroundColor];
+    _collectionView.dataSource = self;
+    _collectionView.delegate = self;
+
     
     POSCollectionFlowLayout *paymentLayout = [[POSCollectionFlowLayout alloc] init];
     paymentCollection = [[UICollectionView alloc] initWithFrame:CGRectZero collectionViewLayout:paymentLayout];
@@ -371,6 +381,7 @@
 
 - (void) calculateTotal
 {
+    
     if(transactionType == TransactionTypeSale)
     {
         total = 0;
@@ -381,6 +392,17 @@
             total += [lesTransport.TotalTransport floatValue];
         for(POSSaleInvoicePayment *saleInvoicePayment in paymentSource)
             payment += [saleInvoicePayment.PaymentAmount floatValue];
+        
+        
+        if([self.txtGst isOn]) {
+            gst = total/11;
+        }
+        else
+        {
+            gst = 0;
+        }
+
+        
         balance = total + gst - payment - discount;
     }
     else {
@@ -390,15 +412,17 @@
             total += [invoice.TotalAmount floatValue];
         for(POSPurchasePayment *saleInvoicePayment in paymentSource)
             payment += [saleInvoicePayment.PaymentAmount floatValue];
+        
+        
+        if([self.txtGst isOn]) {
+            gst = total/11;
+        }
+        else
+        {
+            gst = 0;
+        }
+
         balance = total + gst - payment - discount;
-    }
-    
-    if([self.txtGst isOn]) {
-        gst = total/11;
-    }
-    else
-    {
-        gst = 0;
     }
     
     self.lblTotal.text = [POSCommon formatCurrencyFromNumber:[NSNumber numberWithFloat:total]];
@@ -787,7 +811,7 @@
     if(collectionView == productCollection)
     {
         self.tabProducts.selectedSegmentIndex = 1;
-        subProductCells = [[NSMutableArray alloc] init];
+        [subProductCells removeAllObjects];
         POSCategory *category = [productSource objectAtIndex:indexPath.item];
         subProductSource = [[NSMutableArray alloc] init];
         [subproductCollection clearsContextBeforeDrawing];
@@ -1044,6 +1068,7 @@
             [lessTransportSource removeObjectAtIndex:fromIndex];
         }
         [paymentCollection deleteItemsAtIndexPaths:@[from]];
+        [self calculateTotal];
     }
     @catch (NSException *e){
         NSLog(@"Exception %@",e);
@@ -1327,7 +1352,8 @@
     view.paid = [POSCommon formatCurrencyFromNumber:[NSNumber numberWithFloat:payment]];
     if(transactionType == TransactionTypeSale) {
         
-        view.gst = @"$0.00";
+        NSString *gst1 = [POSCommon formatCurrencyFromNumber:[NSNumber numberWithFloat:gst]];
+        view.gst = gst1;
         view.invoiceNo = [(POSSaleInvoice*)transaction SaleInvoiceRef];
         POSCustomer * customer = [[DBCaches sharedInstant] getObjectInCaches:[DBCaches sharedInstant].customers withId:([(POSSaleInvoice*) transaction CustID])];
         
@@ -1338,7 +1364,9 @@
         
     }
     else{
-        view.gst =  @"$0.00";
+        NSString *gst1 = [POSCommon formatCurrencyFromNumber:[NSNumber numberWithFloat:gst]];
+        view.gst = gst1;
+
         view.invoiceNo = [(POSPurchase*)transaction PurchaseRef];
         POSSupplier * customer = [[DBCaches sharedInstant] getObjectInCaches:[DBCaches sharedInstant].suppliers withId:([(POSPurchase*) transaction SupplierID])];
         view.customerName = customer.CompanyName;

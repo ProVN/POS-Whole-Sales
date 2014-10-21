@@ -44,6 +44,7 @@
     [displayName setTextColor:[UIColor colorWithRed:0.3 green:0.6 blue:0.2 alpha:1]];
     [view addSubview:displayName];
     [self addSubview:view];
+    
     if(self.cornerText) {
         
         CGRect quantityRect = CGRectMake(rect.size.width - 15, -5 , 30, 30);

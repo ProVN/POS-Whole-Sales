@@ -1204,7 +1204,7 @@
 				INFOPLIST_FILE = "pos/pos-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "POS WholeSale";
-				PROVISIONING_PROFILE = "31e8a76a-351d-46aa-8a57-bae74fb8a565";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -1225,7 +1225,7 @@
 				INFOPLIST_FILE = "pos/pos-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "POS WholeSale";
-				PROVISIONING_PROFILE = "31e8a76a-351d-46aa-8a57-bae74fb8a565";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

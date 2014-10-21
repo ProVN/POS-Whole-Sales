@@ -14,12 +14,15 @@
 /*! Add comma to provided number */
 + (NSString *)formatCurrencyFromNumber:(NSNumber *)number
 {
-    NSString* value = @"";
-    NSNumberFormatter *fmt = [[NSNumberFormatter alloc] init];
-    [fmt setCurrencySymbol:@"$"];
-    [fmt setNumberStyle:NSNumberFormatterCurrencyStyle];
-    value = [fmt stringFromNumber:number];
-    return value;
+//    NSString* value = @"";
+//    NSNumberFormatter *fmt = [[NSNumberFormatter alloc] init];
+//    [fmt setCurrencySymbol:@"$"];
+//    [fmt setNumberStyle:NSNumberFormatterCurrencyStyle];
+//    [fmt setMinimumFractionDigits:2];
+//    [fmt setMaximumIntegerDigits:2];
+//    value = [fmt stringFromNumber:number];
+    
+    return [NSString stringWithFormat:@"$%.2f",[number floatValue]];
 }
 /*! Add comma to provided string */
 + (NSString *)formatCurrencyFromString:(NSString *)string
