@@ -15,6 +15,8 @@
 #import "POSProductHistory.h"
 #import "POSPurchaseDetail.h"
 #import "POSSaleInvoiceDetail.h"
+#import "POSPurchase.h"
+#import "POSSaleInvoice.h"
 
 @interface ProductsViewController ()
 
@@ -134,6 +136,18 @@
 {
     GridTableViewCell *cell = [[GridTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"Cell"];
     
+    NSMutableArray *tmp =[POSMeta sharedInstance].produceMonth;
+    NSCalendar *cal = [NSCalendar currentCalendar];
+    NSDate *now = [tmp objectAtIndex:self.filterDateIndex];
+    NSDate *startOfThisMonth;
+    
+    NSDate *endOfThisMonth;
+    NSTimeInterval intervalThisMonth;
+    [cal rangeOfUnit:NSMonthCalendarUnit startDate:&startOfThisMonth interval:&intervalThisMonth forDate:now];
+    endOfThisMonth = [startOfThisMonth dateByAddingTimeInterval:intervalThisMonth-1];
+    TimeObject *thisMonth = [[TimeObject alloc] initWithMinDate:startOfThisMonth maxDate:endOfThisMonth];
+
+    
     POSProduct *product = [datasource objectAtIndex:indexPath.row];
     
     NSPredicate* predicate = [NSPredicate predicateWithFormat:@"ProductID=%@",product.Id];
@@ -145,18 +159,44 @@
     
     NSInteger stock_purchased = 0;
     for (POSPurchaseDetail* item in purchase_datasource) {
-        stock_purchased += [item.Quantity integerValue];
+        POSPurchase *purchase = [dbCache getObjectInCaches:dbCache.purchases withId:item.PurchaseID];
+        if(([purchase.AddedTime compare:thisMonth.minDate]== NSOrderedSame
+            ||
+            [purchase.AddedTime compare:thisMonth.minDate]== NSOrderedDescending)
+           &&
+           ([purchase.AddedTime compare:thisMonth.maxDate]== NSOrderedSame
+            ||
+            [purchase.AddedTime compare:thisMonth.maxDate]== NSOrderedAscending)
+           )
+
+            stock_purchased += [item.Quantity integerValue];
     }
     
     NSInteger stock_sold = 0;
     for(POSSaleInvoiceDetail* item in sale_datasource) {
-        stock_sold += [item.Quantity integerValue];
+        POSSaleInvoice *purchase = [dbCache getObjectInCaches:dbCache.saleInvoices withId:item.SaleInvoiceID];
+        if(([purchase.AddedTime compare:thisMonth.minDate]== NSOrderedSame
+           ||
+           [purchase.AddedTime compare:thisMonth.minDate]== NSOrderedDescending)
+           &&
+           ([purchase.AddedTime compare:thisMonth.maxDate]== NSOrderedSame
+            ||
+            [purchase.AddedTime compare:thisMonth.maxDate]== NSOrderedAscending)
+           )
+            stock_sold += [item.Quantity integerValue];
     }
     
     NSInteger stock_on_hand = 0;
     for(POSProductHistory* item in history_datasource)
     {
-        if(item.AddedTime < [[POSMeta sharedInstance].produceMonth objectAtIndex:self.filterDateIndex])
+        if(([item.AddedTime compare:thisMonth.minDate]== NSOrderedSame
+            ||
+            [item.AddedTime compare:thisMonth.minDate]== NSOrderedDescending)
+           &&
+           ([item.AddedTime compare:thisMonth.maxDate]== NSOrderedSame
+            ||
+            [item.AddedTime compare:thisMonth.maxDate]== NSOrderedAscending)
+           )
             stock_on_hand = [item.StockOnHand integerValue];
     }
     

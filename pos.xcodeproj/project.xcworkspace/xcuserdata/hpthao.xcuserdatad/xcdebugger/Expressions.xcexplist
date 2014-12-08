@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[ProductsViewController tableView:cellForRowAtIndexPath:]:ProductsViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[[POSMeta sharedInstance].produceMonth objectAtIndex:self.filterDateIndex]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ProductsViewController viewDidLoad]:ProductsViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.txtFilter.text">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

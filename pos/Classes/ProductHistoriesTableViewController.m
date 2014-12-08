@@ -10,6 +10,7 @@
 #import "GridTableViewCell.h"
 #import "POSProductHistory.h"
 #import "HeaderView.h"
+#import "POSCommon.h"
 
 @interface ProductHistoriesTableViewController ()
 
@@ -40,8 +41,8 @@
                 [NSNumber numberWithInt:1],
                 nil];
     colTypes = [[NSArray alloc] initWithObjects:
-                [NSNumber numberWithInt:GridCellValueTypeDateInline],
-                [NSNumber numberWithInt:GridCellValueMoney],
+                [NSNumber numberWithInt:GridCellValueId],
+                [NSNumber numberWithInt:GridCellValueNumber],
                 nil];
     
     CGRect frame = self.view.frame;
@@ -90,7 +91,7 @@
 {
     GridTableViewCell *cell = [[GridTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"Cells"];
     POSProductHistory *history = [datasource objectAtIndex:indexPath.row];
-    NSArray *values = [[NSArray alloc] initWithObjects:history.AddedTime, history.StockOnHand , nil];
+    NSArray *values = [[NSArray alloc] initWithObjects:[POSCommon formatDateToString:history.AddedTime], history.StockOnHand , nil];
     cell.values = values;
     cell.colSpans = colSpans;
     cell.colTypes = colTypes;

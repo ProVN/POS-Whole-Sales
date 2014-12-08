@@ -69,6 +69,7 @@
     return [dateFormater stringFromDate:date];
 }
 
+
 + (NSString *)formatDateTimeToString:(NSDate *)date
 {
     NSDateFormatter *dateFormater = [[NSDateFormatter alloc] init];

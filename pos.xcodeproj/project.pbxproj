@@ -400,7 +400,7 @@
 		7D1A653318B769D000F0BACF /* POSUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = POSUser.m; path = Classes/Objects/POSUser.m; sourceTree = "<group>"; };
 		7D1A653518B771FA00F0BACF /* UISplitViewController+POS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISplitViewController+POS.h"; sourceTree = "<group>"; };
 		7D1A653618B771FA00F0BACF /* UISplitViewController+POS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISplitViewController+POS.m"; sourceTree = "<group>"; };
-		7D3883F618A372EC00F6B5FB /* POS WholeSale.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "POS WholeSale.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D3883F618A372EC00F6B5FB /* POS WholeSale 08Dec2012.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "POS WholeSale 08Dec2012.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D3883F918A372EC00F6B5FB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7D3883FB18A372EC00F6B5FB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		7D3883FD18A372EC00F6B5FB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -662,7 +662,7 @@
 		7D3883F718A372EC00F6B5FB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7D3883F618A372EC00F6B5FB /* POS WholeSale.app */,
+				7D3883F618A372EC00F6B5FB /* POS WholeSale 08Dec2012.app */,
 				7D38841A18A372EC00F6B5FB /* posTests.xctest */,
 				FD6B48ED1A3088880076D5A4 /* pos copy.app */,
 			);
@@ -1010,7 +1010,7 @@
 			);
 			name = pos;
 			productName = pos;
-			productReference = 7D3883F618A372EC00F6B5FB /* POS WholeSale.app */;
+			productReference = 7D3883F618A372EC00F6B5FB /* POS WholeSale 08Dec2012.app */;
 			productType = "com.apple.product-type.application";
 		};
 		7D38841918A372EC00F6B5FB /* posTests */ = {
@@ -1607,7 +1607,7 @@
 				GCC_PREFIX_HEADER = "pos/pos-Prefix.pch";
 				INFOPLIST_FILE = "pos/pos-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				PRODUCT_NAME = "POS WholeSale";
+				PRODUCT_NAME = "POS WholeSale 08Dec2012";
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
@@ -1628,7 +1628,7 @@
 				GCC_PREFIX_HEADER = "pos/pos-Prefix.pch";
 				INFOPLIST_FILE = "pos/pos-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				PRODUCT_NAME = "POS WholeSale";
+				PRODUCT_NAME = "POS WholeSale 08Dec2012";
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};

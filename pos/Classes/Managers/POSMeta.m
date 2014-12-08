@@ -222,7 +222,7 @@ static POSMeta* _postMetainstant = nil;
         last5Month.month = 12;
         last5Month.year --;
     }
-    [self.produceMonth addObject:last5Month];
+    [self.produceMonth addObject:[cal dateFromComponents:last5Month] ];
     [self.produceMonthStr addObject:[NSString stringWithFormat:@"%@ - %ld",[self getMonthString:last5Month.month], (long)last5Month.year]];
 
     
@@ -233,7 +233,7 @@ static POSMeta* _postMetainstant = nil;
         last4Month.month = 12;
         last4Month.year --;
     }
-    [self.produceMonth addObject:last4Month];
+    [self.produceMonth addObject:[cal dateFromComponents:last4Month]];
     [self.produceMonthStr addObject:[NSString stringWithFormat:@"%@ - %ld",[self getMonthString:last4Month.month], (long)last4Month.year]];
     
     NSDateComponents *last3Month = [cal components:(NSYearCalendarUnit | NSMonthCalendarUnit| NSDayCalendarUnit) fromDate:now];
@@ -243,7 +243,7 @@ static POSMeta* _postMetainstant = nil;
         last3Month.month = 12;
         last3Month.year --;
     }
-    [self.produceMonth addObject:last3Month];
+    [self.produceMonth addObject:[cal dateFromComponents:last3Month]];
     [self.produceMonthStr addObject:[NSString stringWithFormat:@"%@ - %ld",[self getMonthString:last3Month.month], (long)last3Month.year]];
     
     NSDateComponents *last2Month = [cal components:(NSYearCalendarUnit | NSMonthCalendarUnit| NSDayCalendarUnit) fromDate:now];
@@ -253,12 +253,12 @@ static POSMeta* _postMetainstant = nil;
         last2Month.month = 12;
         last2Month.year --;
     }
-    [self.produceMonth addObject:last2Month];
+    [self.produceMonth addObject:[cal dateFromComponents:last2Month]];
     [self.produceMonthStr addObject:[NSString stringWithFormat:@"%@ - %ld",[self getMonthString:last2Month.month], (long)last2Month.year]];
     
     NSDateComponents *last1Month = [cal components:(NSYearCalendarUnit | NSMonthCalendarUnit| NSDayCalendarUnit) fromDate:now];
     last1Month.day = 1;
-    [self.produceMonth addObject:last1Month];
+    [self.produceMonth addObject:[cal dateFromComponents:last1Month]];
     [self.produceMonthStr addObject:[NSString stringWithFormat:@"%@ - %ld",[self getMonthString:last1Month.month], (long)last1Month.year]];
     
     NSDateComponents *thisMonth = [cal components:(NSYearCalendarUnit | NSMonthCalendarUnit| NSDayCalendarUnit) fromDate:now];
@@ -269,7 +269,7 @@ static POSMeta* _postMetainstant = nil;
         thisMonth.year ++;
     }
     [self.produceMonthStr addObject:[NSString stringWithFormat:@"%@ - %ld",[self getMonthString:thisMonth.month], (long)thisMonth.year]];
-    [self.produceMonth addObject:thisMonth];
+    [self.produceMonth addObject:[cal dateFromComponents:thisMonth]];
 }
 
 - (NSString*) getMonthString :(NSInteger) month {
