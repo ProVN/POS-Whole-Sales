@@ -124,7 +124,7 @@
             self.txtDate.date = saleInvoicePayment.PaymentTime;
             self.txtPaymentType.selectedSegmentIndex = [saleInvoicePayment.PaymentType intValue];
             self.txtDescription.text = saleInvoicePayment.Description;
-            self.txtAmount.text = [saleInvoicePayment.PaymentAmount stringValue];
+            self.txtAmount.text = [NSString stringWithFormat:@"%.2f",[saleInvoicePayment.PaymentAmount floatValue]];
             break;
         }
         case TransactionTypePurchase:
@@ -132,8 +132,7 @@
             self.txtDate.date = purchasePayment.PaymentTime;
             self.txtPaymentType.selectedSegmentIndex = [purchasePayment.PaymentType intValue];
             self.txtDescription.text = purchasePayment.Description;
-            self.txtAmount.text = [purchasePayment.PaymentAmount stringValue];
-            break;
+            self.txtAmount.text = [NSString stringWithFormat:@"%.2f",[purchasePayment.PaymentAmount floatValue]];            break;
         }
         default:
             break;
@@ -220,6 +219,7 @@
 
 #pragma mark
 #pragma mark UITextFieldDelegate
+
 - (BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string
 {
     if([POSCommon isCurrencyCharacter:string])

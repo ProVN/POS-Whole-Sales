@@ -391,28 +391,28 @@
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "-[DBManager saveData:item:title:message:]"
-                  moduleName = "POS WholeSale"
+                  moduleName = "pos copy"
                   urlString = "file:///Users/ltran/Desktop/pos/pos/Classes/Managers/DBManager.m"
-                  timestampString = "435576054.671006"
+                  timestampString = "439388952.65651"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "174"
                   endingLineNumber = "174"
-                  offsetFromSymbolStart = "810">
+                  offsetFromSymbolStart = "848">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "__41-[DBManager saveData:item:title:message:]_block_invoke131"
-                  moduleName = "POS WholeSale"
+                  moduleName = "pos copy"
                   urlString = "file:///Users/ltran/Desktop/pos/pos/Classes/Managers/DBManager.m"
-                  timestampString = "435576054.67133"
+                  timestampString = "439388952.656708"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "174"
                   endingLineNumber = "174"
-                  offsetFromSymbolStart = "70">
+                  offsetFromSymbolStart = "72">
                </Location>
             </Locations>
          </BreakpointContent>

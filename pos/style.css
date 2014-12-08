@@ -19,3 +19,8 @@ table td {
     font-size: 10pt;
     text-align:center;
 }
+
+div {
+    font-family:'Arial';
+    font-size: 10pt;
+}

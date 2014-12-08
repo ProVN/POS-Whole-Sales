@@ -163,7 +163,184 @@
 		FD179D6019931B5E00ACF3BD /* BillViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD179D5E19931B5E00ACF3BD /* BillViewController.m */; };
 		FD179D6119931B5E00ACF3BD /* BillViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD179D5F19931B5E00ACF3BD /* BillViewController.xib */; };
 		FD1AD4EE198104C900FE97D0 /* bg_gradient_red.png in Resources */ = {isa = PBXBuildFile; fileRef = FD1AD4ED198104C900FE97D0 /* bg_gradient_red.png */; };
+		FD2B4A6B1A1731780055701D /* footer_melbourne.html in Resources */ = {isa = PBXBuildFile; fileRef = FD2B4A6A1A1731780055701D /* footer_melbourne.html */; };
+		FD2B4A6D1A1731960055701D /* footer_sysney.html in Resources */ = {isa = PBXBuildFile; fileRef = FD2B4A6C1A1731960055701D /* footer_sysney.html */; };
 		FD2F938B19B4723900A4F9B7 /* ProductHistoriesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD2F938A19B4723900A4F9B7 /* ProductHistoriesTableViewController.m */; };
+		FD6B48391A3088880076D5A4 /* POSActivityLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1A651118B7678200F0BACF /* POSActivityLog.m */; };
+		FD6B483A1A3088880076D5A4 /* UpdateSOHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDBA860D1977CC2F008C5452 /* UpdateSOHViewController.m */; };
+		FD6B483B1A3088880076D5A4 /* POSPurchaseTransport.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1A651F18B7678200F0BACF /* POSPurchaseTransport.m */; };
+		FD6B483C1A3088880076D5A4 /* mainbg.png in Sources */ = {isa = PBXBuildFile; fileRef = 7D38848618A3913300F6B5FB /* mainbg.png */; };
+		FD6B483D1A3088880076D5A4 /* search_icon.png in Sources */ = {isa = PBXBuildFile; fileRef = 7D38848018A38A7100F6B5FB /* search_icon.png */; };
+		FD6B483E1A3088880076D5A4 /* POSUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1A653318B769D000F0BACF /* POSUser.m */; };
+		FD6B483F1A3088880076D5A4 /* search_icon@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 7D38848118A38A7100F6B5FB /* search_icon@2x.png */; };
+		FD6B48401A3088880076D5A4 /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D57E6FF18B5A90400514BE2 /* DBManager.m */; };
+		FD6B48411A3088880076D5A4 /* customers_icon.png in Sources */ = {isa = PBXBuildFile; fileRef = 7D38843E18A3886100F6B5FB /* customers_icon.png */; };
+		FD6B48421A3088880076D5A4 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D57E68D18B5A3BB00514BE2 /* TableViewController.m */; };
+		FD6B48431A3088880076D5A4 /* AdvanceSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D57E65B18B5A3BB00514BE2 /* AdvanceSearchViewController.m */; };
+		FD6B48441A3088880076D5A4 /* CategoryAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD1CB0C196A75380059107A /* CategoryAddViewController.m */; };
+		FD6B48451A3088880076D5A4 /* UserFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D57E69C18B5A3BB00514BE2 /* UserFormViewController.m */; };
+		FD6B48461A3088880076D5A4 /* LessTransportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4E913D18A4AECA0007055C /* LessTransportViewController.m */; };
+		FD6B48471A3088880076D5A4 /* customers_icon@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 7D38843F18A3886100F6B5FB /* customers_icon@2x.png */; };
+		FD6B48481A3088880076D5A4 /* DBCaches.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D61FED218BB51FC00F2DFAC /* DBCaches.m */; };
+		FD6B48491A3088880076D5A4 /* UserDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D57E69918B5A3BB00514BE2 /* UserDetailViewController.m */; };
+		FD6B484A1A3088880076D5A4 /* BillViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD179D5E19931B5E00ACF3BD /* BillViewController.m */; };
+		FD6B484B1A3088880076D5A4 /* ProductDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DC21CD618A876C50024C91F /* ProductDetailViewController.m */; };
+		FD6B484C1A3088880076D5A4 /* logo.png in Sources */ = {isa = PBXBuildFile; fileRef = 7D38844018A3886100F6B5FB /* logo.png */; };
+		FD6B484D1A3088880076D5A4 /* POSObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1A650918B7610E00F0BACF /* POSObject.m */; };
+		FD6B484E1A3088880076D5A4 /* logo@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 7D38844118A3886100F6B5FB /* logo@2x.png */; };
+		FD6B484F1A3088880076D5A4 /* POSMeta.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D3D530418C457080070CE39 /* POSMeta.m */; };
+		FD6B48501A3088880076D5A4 /* POSSaleInvoiceDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1A651A18B7678200F0BACF /* POSSaleInvoiceDetail.m */; };
+		FD6B48511A3088880076D5A4 /* mainlogo.png in Sources */ = {isa = PBXBuildFile; fileRef = 7D38844218A3886100F6B5FB /* mainlogo.png */; };
+		FD6B48521A3088880076D5A4 /* ContactAddtionalInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D994AFF18A4D0C70028D595 /* ContactAddtionalInfoViewController.m */; };
+		FD6B48531A3088880076D5A4 /* UsersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D57E69F18B5A3BB00514BE2 /* UsersViewController.m */; };
+		FD6B48541A3088880076D5A4 /* POSSupplier.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1A653118B7697800F0BACF /* POSSupplier.m */; };
+		FD6B48551A3088880076D5A4 /* POSLessTransport.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1A651518B7678200F0BACF /* POSLessTransport.m */; };
+		FD6B48561A3088880076D5A4 /* UserCollectionItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D57E69718B5A3BB00514BE2 /* UserCollectionItemView.m */; };
+		FD6B48571A3088880076D5A4 /* mainlogo@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 7D38844318A3886100F6B5FB /* mainlogo@2x.png */; };
+		FD6B48581A3088880076D5A4 /* POSSaleInvoice.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1A651918B7678200F0BACF /* POSSaleInvoice.m */; };
+		FD6B48591A3088880076D5A4 /* metadata_icon.png in Sources */ = {isa = PBXBuildFile; fileRef = 7D38844418A3886100F6B5FB /* metadata_icon.png */; };
+		FD6B485A1A3088880076D5A4 /* ReportResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE8383319823F0B00CC11B7 /* ReportResultViewController.m */; };
+		FD6B485B1A3088880076D5A4 /* metadata_icon@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 7D38844518A3886100F6B5FB /* metadata_icon@2x.png */; };
+		FD6B485C1A3088880076D5A4 /* POSLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D61FEDA18BCA40E00F2DFAC /* POSLog.m */; };
+		FD6B485D1A3088880076D5A4 /* UIBarButtonItem+POSUIBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D57E69518B5A3BB00514BE2 /* UIBarButtonItem+POSUIBarButtonItem.m */; };
+		FD6B485E1A3088880076D5A4 /* payments_icon.png in Sources */ = {isa = PBXBuildFile; fileRef = 7D38844618A3886100F6B5FB /* payments_icon.png */; };
+		FD6B485F1A3088880076D5A4 /* SOHTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FDBA86121977D0A4008C5452 /* SOHTableViewCell.m */; };
+		FD6B48601A3088880076D5A4 /* payments_icon@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 7D38844718A3886100F6B5FB /* payments_icon@2x.png */; };
+		FD6B48611A3088880076D5A4 /* HeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D57E66F18B5A3BB00514BE2 /* HeaderView.m */; };
+		FD6B48621A3088880076D5A4 /* PaymentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D57E67F18B5A3BB00514BE2 /* PaymentsViewController.m */; };
+		FD6B48631A3088880076D5A4 /* products_icon.png in Sources */ = {isa = PBXBuildFile; fileRef = 7D38844818A3886100F6B5FB /* products_icon.png */; };
+		FD6B48641A3088880076D5A4 /* POSPurchasePayment.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1A651E18B7678200F0BACF /* POSPurchasePayment.m */; };
+		FD6B48651A3088880076D5A4 /* products_icon@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 7D38844918A3886200F6B5FB /* products_icon@2x.png */; };
+		FD6B48661A3088880076D5A4 /* POSSaleInvoicePayment.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1A651B18B7678200F0BACF /* POSSaleInvoicePayment.m */; };
+		FD6B48671A3088880076D5A4 /* ProductHistoriesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD2F938A19B4723900A4F9B7 /* ProductHistoriesTableViewController.m */; };
+		FD6B48681A3088880076D5A4 /* POSMetadata.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1A651618B7678200F0BACF /* POSMetadata.m */; };
+		FD6B48691A3088880076D5A4 /* purchases_icon.png in Sources */ = {isa = PBXBuildFile; fileRef = 7D38844A18A3886200F6B5FB /* purchases_icon.png */; };
+		FD6B486A1A3088880076D5A4 /* purchases_icon@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 7D38844B18A3886200F6B5FB /* purchases_icon@2x.png */; };
+		FD6B486B1A3088880076D5A4 /* TransactionPaymentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDD540119CC193300C5B1F7 /* TransactionPaymentsViewController.m */; };
+		FD6B486C1A3088880076D5A4 /* MenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D57E67118B5A3BB00514BE2 /* MenuItem.m */; };
+		FD6B486D1A3088880076D5A4 /* TransactionFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D57E68F18B5A3BB00514BE2 /* TransactionFormViewController.m */; };
+		FD6B486E1A3088880076D5A4 /* UIViewController+POSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D38849418A47E9A00F6B5FB /* UIViewController+POSViewController.m */; };
+		FD6B486F1A3088880076D5A4 /* UISplitViewController+POS.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1A653618B771FA00F0BACF /* UISplitViewController+POS.m */; };
+		FD6B48701A3088880076D5A4 /* reports_icon.png in Sources */ = {isa = PBXBuildFile; fileRef = 7D38844C18A3886200F6B5FB /* reports_icon.png */; };
+		FD6B48711A3088880076D5A4 /* reports_icon@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 7D38844D18A3886200F6B5FB /* reports_icon@2x.png */; };
+		FD6B48721A3088880076D5A4 /* POSPurchaseDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1A651D18B7678200F0BACF /* POSPurchaseDetail.m */; };
+		FD6B48731A3088880076D5A4 /* TransactionReportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE8384419834BBD00CC11B7 /* TransactionReportViewController.m */; };
+		FD6B48741A3088880076D5A4 /* POSCustomer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1A651218B7678200F0BACF /* POSCustomer.m */; };
+		FD6B48751A3088880076D5A4 /* sales_icon.png in Sources */ = {isa = PBXBuildFile; fileRef = 7D38844E18A3886200F6B5FB /* sales_icon.png */; };
+		FD6B48761A3088880076D5A4 /* PaymentFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D57E67918B5A3BB00514BE2 /* PaymentFormViewController.m */; };
+		FD6B48771A3088880076D5A4 /* sales_icon@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 7D38844F18A3886200F6B5FB /* sales_icon@2x.png */; };
+		FD6B48781A3088880076D5A4 /* suppliers_icon.png in Sources */ = {isa = PBXBuildFile; fileRef = 7D38845018A3886200F6B5FB /* suppliers_icon.png */; };
+		FD6B48791A3088880076D5A4 /* SearchResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D57E68A18B5A3BB00514BE2 /* SearchResultViewController.m */; };
+		FD6B487A1A3088880076D5A4 /* POSProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1A651718B7678200F0BACF /* POSProduct.m */; };
+		FD6B487B1A3088880076D5A4 /* suppliers_icon@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 7D38845118A3886200F6B5FB /* suppliers_icon@2x.png */; };
+		FD6B487C1A3088880076D5A4 /* ContactFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D57E65E18B5A3BB00514BE2 /* ContactFormViewController.m */; };
+		FD6B487D1A3088880076D5A4 /* POSPurchase.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1A651C18B7678200F0BACF /* POSPurchase.m */; };
+		FD6B487E1A3088880076D5A4 /* PaymentMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D57E67C18B5A3BB00514BE2 /* PaymentMenuViewController.m */; };
+		FD6B487F1A3088880076D5A4 /* POSCollectionFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DC4E34718C049A200EEE392 /* POSCollectionFlowLayout.m */; };
+		FD6B48801A3088880076D5A4 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D61FED518BC55A800F2DFAC /* LoginViewController.m */; };
+		FD6B48811A3088880076D5A4 /* POSDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1A651318B7678200F0BACF /* POSDictionary.m */; };
+		FD6B48821A3088880076D5A4 /* POSCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DC4E34418C03F0E00EEE392 /* POSCommon.m */; };
+		FD6B48831A3088880076D5A4 /* CustomerSelectViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D57E66718B5A3BB00514BE2 /* CustomerSelectViewViewController.m */; };
+		FD6B48841A3088880076D5A4 /* MetaDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D57E67618B5A3BB00514BE2 /* MetaDataViewController.m */; };
+		FD6B48851A3088880076D5A4 /* MenuTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D57E67318B5A3BB00514BE2 /* MenuTableViewCell.m */; };
+		FD6B48861A3088880076D5A4 /* GridTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D57E66D18B5A3BB00514BE2 /* GridTableViewCell.m */; };
+		FD6B48871A3088880076D5A4 /* users_icon.png in Sources */ = {isa = PBXBuildFile; fileRef = 7D38845218A3886200F6B5FB /* users_icon.png */; };
+		FD6B48881A3088880076D5A4 /* DataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D57E66A18B5A3BB00514BE2 /* DataTableViewController.m */; };
+		FD6B48891A3088880076D5A4 /* DateTimePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D38849B18A483F500F6B5FB /* DateTimePickerViewController.m */; };
+		FD6B488A1A3088880076D5A4 /* ContactInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D57E66118B5A3BB00514BE2 /* ContactInfoViewController.m */; };
+		FD6B488B1A3088880076D5A4 /* ProductCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D57E68218B5A3BB00514BE2 /* ProductCollectionViewCell.m */; };
+		FD6B488C1A3088880076D5A4 /* ContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D57E66418B5A3BB00514BE2 /* ContactsViewController.m */; };
+		FD6B488D1A3088880076D5A4 /* CategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD1CB07196A703E0059107A /* CategoryViewController.m */; };
+		FD6B488E1A3088880076D5A4 /* ProductFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D57E68418B5A3BB00514BE2 /* ProductFormViewController.m */; };
+		FD6B488F1A3088880076D5A4 /* users_icon@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 7D38845318A3886200F6B5FB /* users_icon@2x.png */; };
+		FD6B48901A3088880076D5A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D38840918A372EC00F6B5FB /* AppDelegate.m */; };
+		FD6B48911A3088880076D5A4 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D38840F18A372EC00F6B5FB /* MasterViewController.m */; };
+		FD6B48921A3088880076D5A4 /* ProductsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D57E68718B5A3BB00514BE2 /* ProductsViewController.m */; };
+		FD6B48931A3088880076D5A4 /* POSCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0FF18C1968F32500C2F03F /* POSCategory.m */; };
+		FD6B48941A3088880076D5A4 /* SaleInvoiceDetailsInput.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DC4E33F18BF2E0200EEE392 /* SaleInvoiceDetailsInput.m */; };
+		FD6B48951A3088880076D5A4 /* POSProductHistory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1A651818B7678200F0BACF /* POSProductHistory.m */; };
+		FD6B48961A3088880076D5A4 /* POSMetaFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC488E61973D4A500AED82D /* POSMetaFormViewController.m */; };
+		FD6B48971A3088880076D5A4 /* POSLessOther.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1A651418B7678200F0BACF /* POSLessOther.m */; };
+		FD6B48981A3088880076D5A4 /* I3DragBetweenHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D61FEDD18BCA90F00F2DFAC /* I3DragBetweenHelper.m */; };
+		FD6B48991A3088880076D5A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D38840518A372EC00F6B5FB /* main.m */; };
+		FD6B489A1A3088880076D5A4 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D38841218A372EC00F6B5FB /* DetailViewController.m */; };
+		FD6B489B1A3088880076D5A4 /* TransactionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D57E69218B5A3BB00514BE2 /* TransactionsViewController.m */; };
+		FD6B489D1A3088880076D5A4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D3883FB18A372EC00F6B5FB /* CoreGraphics.framework */; };
+		FD6B489E1A3088880076D5A4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D3883FD18A372EC00F6B5FB /* UIKit.framework */; };
+		FD6B489F1A3088880076D5A4 /* WindowsAzureMobileServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D670F0A18B1F06700A92CCD /* WindowsAzureMobileServices.framework */; };
+		FD6B48A01A3088880076D5A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D3883F918A372EC00F6B5FB /* Foundation.framework */; };
+		FD6B48A21A3088880076D5A4 /* CategoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDD1CB08196A703E0059107A /* CategoryViewController.xib */; };
+		FD6B48A31A3088880076D5A4 /* purchases_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D38844B18A3886200F6B5FB /* purchases_icon@2x.png */; };
+		FD6B48A41A3088880076D5A4 /* payments_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D38844718A3886100F6B5FB /* payments_icon@2x.png */; };
+		FD6B48A51A3088880076D5A4 /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = FDE8383A1982473700CC11B7 /* style.css */; };
+		FD6B48A61A3088880076D5A4 /* payments_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D38844618A3886100F6B5FB /* payments_icon.png */; };
+		FD6B48A71A3088880076D5A4 /* ContactAddtionalInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D994B0018A4D0C70028D595 /* ContactAddtionalInfoViewController.xib */; };
+		FD6B48A81A3088880076D5A4 /* ProductsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D57E68818B5A3BB00514BE2 /* ProductsViewController.xib */; };
+		FD6B48A91A3088880076D5A4 /* PaymentMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D57E67D18B5A3BB00514BE2 /* PaymentMenuViewController.xib */; };
+		FD6B48AA1A3088880076D5A4 /* mainlogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D38844318A3886100F6B5FB /* mainlogo@2x.png */; };
+		FD6B48AB1A3088880076D5A4 /* sales_report.html in Resources */ = {isa = PBXBuildFile; fileRef = FDE8383819823FAC00CC11B7 /* sales_report.html */; };
+		FD6B48AC1A3088880076D5A4 /* LessTransportViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D4E913E18A4AECA0007055C /* LessTransportViewController.xib */; };
+		FD6B48AD1A3088880076D5A4 /* UpdateSOHViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDBA860E1977CC2F008C5452 /* UpdateSOHViewController.xib */; };
+		FD6B48AE1A3088880076D5A4 /* users_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D38845218A3886200F6B5FB /* users_icon.png */; };
+		FD6B48AF1A3088880076D5A4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D38841418A372EC00F6B5FB /* Images.xcassets */; };
+		FD6B48B01A3088880076D5A4 /* footer_sysney.html in Resources */ = {isa = PBXBuildFile; fileRef = FD2B4A6C1A1731960055701D /* footer_sysney.html */; };
+		FD6B48B11A3088880076D5A4 /* TransactionPaymentsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDDD540219CC193300C5B1F7 /* TransactionPaymentsViewController.xib */; };
+		FD6B48B21A3088880076D5A4 /* metadata_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D38844518A3886100F6B5FB /* metadata_icon@2x.png */; };
+		FD6B48B31A3088880076D5A4 /* products_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D38844818A3886100F6B5FB /* products_icon.png */; };
+		FD6B48B41A3088880076D5A4 /* TransactionReportViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDE8384519834BBD00CC11B7 /* TransactionReportViewController.xib */; };
+		FD6B48B51A3088880076D5A4 /* SOHTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDBA86131977D0A4008C5452 /* SOHTableViewCell.xib */; };
+		FD6B48B61A3088880076D5A4 /* sales_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D38844E18A3886200F6B5FB /* sales_icon.png */; };
+		FD6B48B71A3088880076D5A4 /* footer_melbourne.html in Resources */ = {isa = PBXBuildFile; fileRef = FD2B4A6A1A1731780055701D /* footer_melbourne.html */; };
+		FD6B48B81A3088880076D5A4 /* reports_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D38844C18A3886200F6B5FB /* reports_icon.png */; };
+		FD6B48B91A3088880076D5A4 /* PaymentFormViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D57E67A18B5A3BB00514BE2 /* PaymentFormViewController.xib */; };
+		FD6B48BA1A3088880076D5A4 /* users_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D38845318A3886200F6B5FB /* users_icon@2x.png */; };
+		FD6B48BB1A3088880076D5A4 /* SEAP_logo_v02 copy02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FDB7FAEA1995A50100A86FD4 /* SEAP_logo_v02 copy02.jpg */; };
+		FD6B48BC1A3088880076D5A4 /* TransactionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D57E69318B5A3BB00514BE2 /* TransactionsViewController.xib */; };
+		FD6B48BD1A3088880076D5A4 /* badgebg.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DC4E34B18C0959300EEE392 /* badgebg.png */; };
+		FD6B48BE1A3088880076D5A4 /* suppliers_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D38845118A3886200F6B5FB /* suppliers_icon@2x.png */; };
+		FD6B48BF1A3088880076D5A4 /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D38844118A3886100F6B5FB /* logo@2x.png */; };
+		FD6B48C01A3088880076D5A4 /* AdvanceSearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D57E65C18B5A3BB00514BE2 /* AdvanceSearchViewController.xib */; };
+		FD6B48C11A3088880076D5A4 /* bill.html in Resources */ = {isa = PBXBuildFile; fileRef = FDB7EC911994565E00F68CE9 /* bill.html */; };
+		FD6B48C21A3088880076D5A4 /* main.PNG in Resources */ = {isa = PBXBuildFile; fileRef = FDE8383019823CB800CC11B7 /* main.PNG */; };
+		FD6B48C31A3088880076D5A4 /* purchases_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D38844A18A3886200F6B5FB /* purchases_icon.png */; };
+		FD6B48C41A3088880076D5A4 /* UserFormViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D57E69D18B5A3BB00514BE2 /* UserFormViewController.xib */; };
+		FD6B48C51A3088880076D5A4 /* ContactsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D57E66518B5A3BB00514BE2 /* ContactsViewController.xib */; };
+		FD6B48C61A3088880076D5A4 /* ReportResultViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDE8383419823F0B00CC11B7 /* ReportResultViewController.xib */; };
+		FD6B48C71A3088880076D5A4 /* ProductFormViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D57E68518B5A3BB00514BE2 /* ProductFormViewController.xib */; };
+		FD6B48C81A3088880076D5A4 /* customers_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D38843F18A3886100F6B5FB /* customers_icon@2x.png */; };
+		FD6B48C91A3088880076D5A4 /* mainlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D38844218A3886100F6B5FB /* mainlogo.png */; };
+		FD6B48CA1A3088880076D5A4 /* customers_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D38843E18A3886100F6B5FB /* customers_icon.png */; };
+		FD6B48CB1A3088880076D5A4 /* search_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D38848118A38A7100F6B5FB /* search_icon@2x.png */; };
+		FD6B48CC1A3088880076D5A4 /* POSMetaFormViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDC488E71973D4A500AED82D /* POSMetaFormViewController.xib */; };
+		FD6B48CD1A3088880076D5A4 /* PaymentsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D57E68018B5A3BB00514BE2 /* PaymentsViewController.xib */; };
+		FD6B48CE1A3088880076D5A4 /* SearchResultViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D57E68B18B5A3BB00514BE2 /* SearchResultViewController.xib */; };
+		FD6B48CF1A3088880076D5A4 /* suppliers_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D38845018A3886200F6B5FB /* suppliers_icon.png */; };
+		FD6B48D01A3088880076D5A4 /* search_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D38848018A38A7100F6B5FB /* search_icon.png */; };
+		FD6B48D11A3088880076D5A4 /* ProductDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DC21CD718A876C50024C91F /* ProductDetailViewController.xib */; };
+		FD6B48D21A3088880076D5A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7D38840218A372EC00F6B5FB /* InfoPlist.strings */; };
+		FD6B48D31A3088880076D5A4 /* MenuTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D57E67418B5A3BB00514BE2 /* MenuTableViewCell.xib */; };
+		FD6B48D41A3088880076D5A4 /* UserDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D57E69A18B5A3BB00514BE2 /* UserDetailViewController.xib */; };
+		FD6B48D51A3088880076D5A4 /* TransactionFormViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D57E69018B5A3BB00514BE2 /* TransactionFormViewController.xib */; };
+		FD6B48D61A3088880076D5A4 /* mainbg.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D38848618A3913300F6B5FB /* mainbg.png */; };
+		FD6B48D71A3088880076D5A4 /* BillViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD179D5F19931B5E00ACF3BD /* BillViewController.xib */; };
+		FD6B48D81A3088880076D5A4 /* lorrygreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DC4E34918C0822900EEE392 /* lorrygreen.png */; };
+		FD6B48D91A3088880076D5A4 /* CustomerSelectViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D57E66818B5A3BB00514BE2 /* CustomerSelectViewViewController.xib */; };
+		FD6B48DA1A3088880076D5A4 /* CategoryAddViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDD1CB0D196A75380059107A /* CategoryAddViewController.xib */; };
+		FD6B48DB1A3088880076D5A4 /* MetaDataViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D57E67718B5A3BB00514BE2 /* MetaDataViewController.xib */; };
+		FD6B48DC1A3088880076D5A4 /* DateTimePickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D38849C18A483F500F6B5FB /* DateTimePickerViewController.xib */; };
+		FD6B48DD1A3088880076D5A4 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D38844018A3886100F6B5FB /* logo.png */; };
+		FD6B48DE1A3088880076D5A4 /* bg_gradient_red.png in Resources */ = {isa = PBXBuildFile; fileRef = FD1AD4ED198104C900FE97D0 /* bg_gradient_red.png */; };
+		FD6B48DF1A3088880076D5A4 /* sales_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D38844F18A3886200F6B5FB /* sales_icon@2x.png */; };
+		FD6B48E01A3088880076D5A4 /* DataTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D57E66B18B5A3BB00514BE2 /* DataTableViewController.xib */; };
+		FD6B48E11A3088880076D5A4 /* ContactFormViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D57E65F18B5A3BB00514BE2 /* ContactFormViewController.xib */; };
+		FD6B48E21A3088880076D5A4 /* UsersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D57E6A018B5A3BB00514BE2 /* UsersViewController.xib */; };
+		FD6B48E31A3088880076D5A4 /* SaleInvoiceDetailsInput.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DC4E34018BF2E0200EEE392 /* SaleInvoiceDetailsInput.xib */; };
+		FD6B48E41A3088880076D5A4 /* products_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D38844918A3886200F6B5FB /* products_icon@2x.png */; };
+		FD6B48E51A3088880076D5A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D38840B18A372EC00F6B5FB /* Main.storyboard */; };
+		FD6B48E61A3088880076D5A4 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D61FED618BC55A800F2DFAC /* LoginViewController.xib */; };
+		FD6B48E71A3088880076D5A4 /* ContactInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D57E66218B5A3BB00514BE2 /* ContactInfoViewController.xib */; };
+		FD6B48E81A3088880076D5A4 /* metadata_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D38844418A3886100F6B5FB /* metadata_icon.png */; };
+		FD6B48E91A3088880076D5A4 /* reports_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D38844D18A3886200F6B5FB /* reports_icon@2x.png */; };
 		FDB7EC921994565E00F68CE9 /* bill.html in Resources */ = {isa = PBXBuildFile; fileRef = FDB7EC911994565E00F68CE9 /* bill.html */; };
 		FDB7FAEB1995A50100A86FD4 /* SEAP_logo_v02 copy02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FDB7FAEA1995A50100A86FD4 /* SEAP_logo_v02 copy02.jpg */; };
 		FDBA860F1977CC2F008C5452 /* UpdateSOHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDBA860D1977CC2F008C5452 /* UpdateSOHViewController.m */; };
@@ -398,8 +575,12 @@
 		FD179D5E19931B5E00ACF3BD /* BillViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BillViewController.m; sourceTree = "<group>"; };
 		FD179D5F19931B5E00ACF3BD /* BillViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BillViewController.xib; sourceTree = "<group>"; };
 		FD1AD4ED198104C900FE97D0 /* bg_gradient_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_gradient_red.png; sourceTree = "<group>"; };
+		FD2B4A6A1A1731780055701D /* footer_melbourne.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = footer_melbourne.html; sourceTree = "<group>"; };
+		FD2B4A6C1A1731960055701D /* footer_sysney.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = footer_sysney.html; sourceTree = "<group>"; };
 		FD2F938919B4723900A4F9B7 /* ProductHistoriesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProductHistoriesTableViewController.h; path = Classes/ProductHistoriesTableViewController.h; sourceTree = "<group>"; };
 		FD2F938A19B4723900A4F9B7 /* ProductHistoriesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProductHistoriesTableViewController.m; path = Classes/ProductHistoriesTableViewController.m; sourceTree = "<group>"; };
+		FD6B48ED1A3088880076D5A4 /* pos copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pos copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD6B48EE1A3088880076D5A4 /* pos copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "pos copy-Info.plist"; path = "/Users/ltran/Desktop/pos/pos copy-Info.plist"; sourceTree = "<absolute>"; };
 		FDB7EC911994565E00F68CE9 /* bill.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = bill.html; sourceTree = "<group>"; };
 		FDB7FAEA1995A50100A86FD4 /* SEAP_logo_v02 copy02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "SEAP_logo_v02 copy02.jpg"; sourceTree = "<group>"; };
 		FDBA860C1977CC2F008C5452 /* UpdateSOHViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UpdateSOHViewController.h; path = Classes/UpdateSOHViewController.h; sourceTree = "<group>"; };
@@ -453,6 +634,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FD6B489C1A3088880076D5A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD6B489D1A3088880076D5A4 /* CoreGraphics.framework in Frameworks */,
+				FD6B489E1A3088880076D5A4 /* UIKit.framework in Frameworks */,
+				FD6B489F1A3088880076D5A4 /* WindowsAzureMobileServices.framework in Frameworks */,
+				FD6B48A01A3088880076D5A4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -463,6 +655,7 @@
 				7D38842118A372EC00F6B5FB /* posTests */,
 				7D3883F818A372EC00F6B5FB /* Frameworks */,
 				7D3883F718A372EC00F6B5FB /* Products */,
+				FD6B48EE1A3088880076D5A4 /* pos copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -471,6 +664,7 @@
 			children = (
 				7D3883F618A372EC00F6B5FB /* POS WholeSale.app */,
 				7D38841A18A372EC00F6B5FB /* posTests.xctest */,
+				FD6B48ED1A3088880076D5A4 /* pos copy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -793,6 +987,8 @@
 				FDB7EC911994565E00F68CE9 /* bill.html */,
 				FDE8383819823FAC00CC11B7 /* sales_report.html */,
 				FDE8383A1982473700CC11B7 /* style.css */,
+				FD2B4A6A1A1731780055701D /* footer_melbourne.html */,
+				FD2B4A6C1A1731960055701D /* footer_sysney.html */,
 			);
 			name = html;
 			sourceTree = "<group>";
@@ -835,6 +1031,23 @@
 			productReference = 7D38841A18A372EC00F6B5FB /* posTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		FD6B48371A3088880076D5A4 /* pos copy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD6B48EA1A3088880076D5A4 /* Build configuration list for PBXNativeTarget "pos copy" */;
+			buildPhases = (
+				FD6B48381A3088880076D5A4 /* Sources */,
+				FD6B489C1A3088880076D5A4 /* Frameworks */,
+				FD6B48A11A3088880076D5A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "pos copy";
+			productName = pos;
+			productReference = FD6B48ED1A3088880076D5A4 /* pos copy.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -849,6 +1062,9 @@
 					};
 					7D38841918A372EC00F6B5FB = {
 						TestTargetID = 7D3883F518A372EC00F6B5FB;
+					};
+					FD6B48371A3088880076D5A4 = {
+						DevelopmentTeam = 3YLE356EC5;
 					};
 				};
 			};
@@ -867,6 +1083,7 @@
 			targets = (
 				7D3883F518A372EC00F6B5FB /* pos */,
 				7D38841918A372EC00F6B5FB /* posTests */,
+				FD6B48371A3088880076D5A4 /* pos copy */,
 			);
 		};
 /* End PBXProject section */
@@ -890,12 +1107,14 @@
 				FDBA86101977CC2F008C5452 /* UpdateSOHViewController.xib in Resources */,
 				7D38846818A3886200F6B5FB /* users_icon.png in Resources */,
 				7D38841518A372EC00F6B5FB /* Images.xcassets in Resources */,
+				FD2B4A6D1A1731960055701D /* footer_sysney.html in Resources */,
 				FDDD540419CC193300C5B1F7 /* TransactionPaymentsViewController.xib in Resources */,
 				7D38845B18A3886200F6B5FB /* metadata_icon@2x.png in Resources */,
 				7D38845E18A3886200F6B5FB /* products_icon.png in Resources */,
 				FDE8384719834BBD00CC11B7 /* TransactionReportViewController.xib in Resources */,
 				FDBA86151977D0A4008C5452 /* SOHTableViewCell.xib in Resources */,
 				7D38846418A3886200F6B5FB /* sales_icon.png in Resources */,
+				FD2B4A6B1A1731780055701D /* footer_melbourne.html in Resources */,
 				7D38846218A3886200F6B5FB /* reports_icon.png in Resources */,
 				7D57E6B518B5A3BB00514BE2 /* PaymentFormViewController.xib in Resources */,
 				7D38846918A3886200F6B5FB /* users_icon@2x.png in Resources */,
@@ -954,6 +1173,85 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D38842618A372EC00F6B5FB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD6B48A11A3088880076D5A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD6B48A21A3088880076D5A4 /* CategoryViewController.xib in Resources */,
+				FD6B48A31A3088880076D5A4 /* purchases_icon@2x.png in Resources */,
+				FD6B48A41A3088880076D5A4 /* payments_icon@2x.png in Resources */,
+				FD6B48A51A3088880076D5A4 /* style.css in Resources */,
+				FD6B48A61A3088880076D5A4 /* payments_icon.png in Resources */,
+				FD6B48A71A3088880076D5A4 /* ContactAddtionalInfoViewController.xib in Resources */,
+				FD6B48A81A3088880076D5A4 /* ProductsViewController.xib in Resources */,
+				FD6B48A91A3088880076D5A4 /* PaymentMenuViewController.xib in Resources */,
+				FD6B48AA1A3088880076D5A4 /* mainlogo@2x.png in Resources */,
+				FD6B48AB1A3088880076D5A4 /* sales_report.html in Resources */,
+				FD6B48AC1A3088880076D5A4 /* LessTransportViewController.xib in Resources */,
+				FD6B48AD1A3088880076D5A4 /* UpdateSOHViewController.xib in Resources */,
+				FD6B48AE1A3088880076D5A4 /* users_icon.png in Resources */,
+				FD6B48AF1A3088880076D5A4 /* Images.xcassets in Resources */,
+				FD6B48B01A3088880076D5A4 /* footer_sysney.html in Resources */,
+				FD6B48B11A3088880076D5A4 /* TransactionPaymentsViewController.xib in Resources */,
+				FD6B48B21A3088880076D5A4 /* metadata_icon@2x.png in Resources */,
+				FD6B48B31A3088880076D5A4 /* products_icon.png in Resources */,
+				FD6B48B41A3088880076D5A4 /* TransactionReportViewController.xib in Resources */,
+				FD6B48B51A3088880076D5A4 /* SOHTableViewCell.xib in Resources */,
+				FD6B48B61A3088880076D5A4 /* sales_icon.png in Resources */,
+				FD6B48B71A3088880076D5A4 /* footer_melbourne.html in Resources */,
+				FD6B48B81A3088880076D5A4 /* reports_icon.png in Resources */,
+				FD6B48B91A3088880076D5A4 /* PaymentFormViewController.xib in Resources */,
+				FD6B48BA1A3088880076D5A4 /* users_icon@2x.png in Resources */,
+				FD6B48BB1A3088880076D5A4 /* SEAP_logo_v02 copy02.jpg in Resources */,
+				FD6B48BC1A3088880076D5A4 /* TransactionsViewController.xib in Resources */,
+				FD6B48BD1A3088880076D5A4 /* badgebg.png in Resources */,
+				FD6B48BE1A3088880076D5A4 /* suppliers_icon@2x.png in Resources */,
+				FD6B48BF1A3088880076D5A4 /* logo@2x.png in Resources */,
+				FD6B48C01A3088880076D5A4 /* AdvanceSearchViewController.xib in Resources */,
+				FD6B48C11A3088880076D5A4 /* bill.html in Resources */,
+				FD6B48C21A3088880076D5A4 /* main.PNG in Resources */,
+				FD6B48C31A3088880076D5A4 /* purchases_icon.png in Resources */,
+				FD6B48C41A3088880076D5A4 /* UserFormViewController.xib in Resources */,
+				FD6B48C51A3088880076D5A4 /* ContactsViewController.xib in Resources */,
+				FD6B48C61A3088880076D5A4 /* ReportResultViewController.xib in Resources */,
+				FD6B48C71A3088880076D5A4 /* ProductFormViewController.xib in Resources */,
+				FD6B48C81A3088880076D5A4 /* customers_icon@2x.png in Resources */,
+				FD6B48C91A3088880076D5A4 /* mainlogo.png in Resources */,
+				FD6B48CA1A3088880076D5A4 /* customers_icon.png in Resources */,
+				FD6B48CB1A3088880076D5A4 /* search_icon@2x.png in Resources */,
+				FD6B48CC1A3088880076D5A4 /* POSMetaFormViewController.xib in Resources */,
+				FD6B48CD1A3088880076D5A4 /* PaymentsViewController.xib in Resources */,
+				FD6B48CE1A3088880076D5A4 /* SearchResultViewController.xib in Resources */,
+				FD6B48CF1A3088880076D5A4 /* suppliers_icon.png in Resources */,
+				FD6B48D01A3088880076D5A4 /* search_icon.png in Resources */,
+				FD6B48D11A3088880076D5A4 /* ProductDetailViewController.xib in Resources */,
+				FD6B48D21A3088880076D5A4 /* InfoPlist.strings in Resources */,
+				FD6B48D31A3088880076D5A4 /* MenuTableViewCell.xib in Resources */,
+				FD6B48D41A3088880076D5A4 /* UserDetailViewController.xib in Resources */,
+				FD6B48D51A3088880076D5A4 /* TransactionFormViewController.xib in Resources */,
+				FD6B48D61A3088880076D5A4 /* mainbg.png in Resources */,
+				FD6B48D71A3088880076D5A4 /* BillViewController.xib in Resources */,
+				FD6B48D81A3088880076D5A4 /* lorrygreen.png in Resources */,
+				FD6B48D91A3088880076D5A4 /* CustomerSelectViewViewController.xib in Resources */,
+				FD6B48DA1A3088880076D5A4 /* CategoryAddViewController.xib in Resources */,
+				FD6B48DB1A3088880076D5A4 /* MetaDataViewController.xib in Resources */,
+				FD6B48DC1A3088880076D5A4 /* DateTimePickerViewController.xib in Resources */,
+				FD6B48DD1A3088880076D5A4 /* logo.png in Resources */,
+				FD6B48DE1A3088880076D5A4 /* bg_gradient_red.png in Resources */,
+				FD6B48DF1A3088880076D5A4 /* sales_icon@2x.png in Resources */,
+				FD6B48E01A3088880076D5A4 /* DataTableViewController.xib in Resources */,
+				FD6B48E11A3088880076D5A4 /* ContactFormViewController.xib in Resources */,
+				FD6B48E21A3088880076D5A4 /* UsersViewController.xib in Resources */,
+				FD6B48E31A3088880076D5A4 /* SaleInvoiceDetailsInput.xib in Resources */,
+				FD6B48E41A3088880076D5A4 /* products_icon@2x.png in Resources */,
+				FD6B48E51A3088880076D5A4 /* Main.storyboard in Resources */,
+				FD6B48E61A3088880076D5A4 /* LoginViewController.xib in Resources */,
+				FD6B48E71A3088880076D5A4 /* ContactInfoViewController.xib in Resources */,
+				FD6B48E81A3088880076D5A4 /* metadata_icon.png in Resources */,
+				FD6B48E91A3088880076D5A4 /* reports_icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1071,6 +1369,112 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D38842818A372EC00F6B5FB /* posTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD6B48381A3088880076D5A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD6B48391A3088880076D5A4 /* POSActivityLog.m in Sources */,
+				FD6B483A1A3088880076D5A4 /* UpdateSOHViewController.m in Sources */,
+				FD6B483B1A3088880076D5A4 /* POSPurchaseTransport.m in Sources */,
+				FD6B483C1A3088880076D5A4 /* mainbg.png in Sources */,
+				FD6B483D1A3088880076D5A4 /* search_icon.png in Sources */,
+				FD6B483E1A3088880076D5A4 /* POSUser.m in Sources */,
+				FD6B483F1A3088880076D5A4 /* search_icon@2x.png in Sources */,
+				FD6B48401A3088880076D5A4 /* DBManager.m in Sources */,
+				FD6B48411A3088880076D5A4 /* customers_icon.png in Sources */,
+				FD6B48421A3088880076D5A4 /* TableViewController.m in Sources */,
+				FD6B48431A3088880076D5A4 /* AdvanceSearchViewController.m in Sources */,
+				FD6B48441A3088880076D5A4 /* CategoryAddViewController.m in Sources */,
+				FD6B48451A3088880076D5A4 /* UserFormViewController.m in Sources */,
+				FD6B48461A3088880076D5A4 /* LessTransportViewController.m in Sources */,
+				FD6B48471A3088880076D5A4 /* customers_icon@2x.png in Sources */,
+				FD6B48481A3088880076D5A4 /* DBCaches.m in Sources */,
+				FD6B48491A3088880076D5A4 /* UserDetailViewController.m in Sources */,
+				FD6B484A1A3088880076D5A4 /* BillViewController.m in Sources */,
+				FD6B484B1A3088880076D5A4 /* ProductDetailViewController.m in Sources */,
+				FD6B484C1A3088880076D5A4 /* logo.png in Sources */,
+				FD6B484D1A3088880076D5A4 /* POSObject.m in Sources */,
+				FD6B484E1A3088880076D5A4 /* logo@2x.png in Sources */,
+				FD6B484F1A3088880076D5A4 /* POSMeta.m in Sources */,
+				FD6B48501A3088880076D5A4 /* POSSaleInvoiceDetail.m in Sources */,
+				FD6B48511A3088880076D5A4 /* mainlogo.png in Sources */,
+				FD6B48521A3088880076D5A4 /* ContactAddtionalInfoViewController.m in Sources */,
+				FD6B48531A3088880076D5A4 /* UsersViewController.m in Sources */,
+				FD6B48541A3088880076D5A4 /* POSSupplier.m in Sources */,
+				FD6B48551A3088880076D5A4 /* POSLessTransport.m in Sources */,
+				FD6B48561A3088880076D5A4 /* UserCollectionItemView.m in Sources */,
+				FD6B48571A3088880076D5A4 /* mainlogo@2x.png in Sources */,
+				FD6B48581A3088880076D5A4 /* POSSaleInvoice.m in Sources */,
+				FD6B48591A3088880076D5A4 /* metadata_icon.png in Sources */,
+				FD6B485A1A3088880076D5A4 /* ReportResultViewController.m in Sources */,
+				FD6B485B1A3088880076D5A4 /* metadata_icon@2x.png in Sources */,
+				FD6B485C1A3088880076D5A4 /* POSLog.m in Sources */,
+				FD6B485D1A3088880076D5A4 /* UIBarButtonItem+POSUIBarButtonItem.m in Sources */,
+				FD6B485E1A3088880076D5A4 /* payments_icon.png in Sources */,
+				FD6B485F1A3088880076D5A4 /* SOHTableViewCell.m in Sources */,
+				FD6B48601A3088880076D5A4 /* payments_icon@2x.png in Sources */,
+				FD6B48611A3088880076D5A4 /* HeaderView.m in Sources */,
+				FD6B48621A3088880076D5A4 /* PaymentsViewController.m in Sources */,
+				FD6B48631A3088880076D5A4 /* products_icon.png in Sources */,
+				FD6B48641A3088880076D5A4 /* POSPurchasePayment.m in Sources */,
+				FD6B48651A3088880076D5A4 /* products_icon@2x.png in Sources */,
+				FD6B48661A3088880076D5A4 /* POSSaleInvoicePayment.m in Sources */,
+				FD6B48671A3088880076D5A4 /* ProductHistoriesTableViewController.m in Sources */,
+				FD6B48681A3088880076D5A4 /* POSMetadata.m in Sources */,
+				FD6B48691A3088880076D5A4 /* purchases_icon.png in Sources */,
+				FD6B486A1A3088880076D5A4 /* purchases_icon@2x.png in Sources */,
+				FD6B486B1A3088880076D5A4 /* TransactionPaymentsViewController.m in Sources */,
+				FD6B486C1A3088880076D5A4 /* MenuItem.m in Sources */,
+				FD6B486D1A3088880076D5A4 /* TransactionFormViewController.m in Sources */,
+				FD6B486E1A3088880076D5A4 /* UIViewController+POSViewController.m in Sources */,
+				FD6B486F1A3088880076D5A4 /* UISplitViewController+POS.m in Sources */,
+				FD6B48701A3088880076D5A4 /* reports_icon.png in Sources */,
+				FD6B48711A3088880076D5A4 /* reports_icon@2x.png in Sources */,
+				FD6B48721A3088880076D5A4 /* POSPurchaseDetail.m in Sources */,
+				FD6B48731A3088880076D5A4 /* TransactionReportViewController.m in Sources */,
+				FD6B48741A3088880076D5A4 /* POSCustomer.m in Sources */,
+				FD6B48751A3088880076D5A4 /* sales_icon.png in Sources */,
+				FD6B48761A3088880076D5A4 /* PaymentFormViewController.m in Sources */,
+				FD6B48771A3088880076D5A4 /* sales_icon@2x.png in Sources */,
+				FD6B48781A3088880076D5A4 /* suppliers_icon.png in Sources */,
+				FD6B48791A3088880076D5A4 /* SearchResultViewController.m in Sources */,
+				FD6B487A1A3088880076D5A4 /* POSProduct.m in Sources */,
+				FD6B487B1A3088880076D5A4 /* suppliers_icon@2x.png in Sources */,
+				FD6B487C1A3088880076D5A4 /* ContactFormViewController.m in Sources */,
+				FD6B487D1A3088880076D5A4 /* POSPurchase.m in Sources */,
+				FD6B487E1A3088880076D5A4 /* PaymentMenuViewController.m in Sources */,
+				FD6B487F1A3088880076D5A4 /* POSCollectionFlowLayout.m in Sources */,
+				FD6B48801A3088880076D5A4 /* LoginViewController.m in Sources */,
+				FD6B48811A3088880076D5A4 /* POSDictionary.m in Sources */,
+				FD6B48821A3088880076D5A4 /* POSCommon.m in Sources */,
+				FD6B48831A3088880076D5A4 /* CustomerSelectViewViewController.m in Sources */,
+				FD6B48841A3088880076D5A4 /* MetaDataViewController.m in Sources */,
+				FD6B48851A3088880076D5A4 /* MenuTableViewCell.m in Sources */,
+				FD6B48861A3088880076D5A4 /* GridTableViewCell.m in Sources */,
+				FD6B48871A3088880076D5A4 /* users_icon.png in Sources */,
+				FD6B48881A3088880076D5A4 /* DataTableViewController.m in Sources */,
+				FD6B48891A3088880076D5A4 /* DateTimePickerViewController.m in Sources */,
+				FD6B488A1A3088880076D5A4 /* ContactInfoViewController.m in Sources */,
+				FD6B488B1A3088880076D5A4 /* ProductCollectionViewCell.m in Sources */,
+				FD6B488C1A3088880076D5A4 /* ContactsViewController.m in Sources */,
+				FD6B488D1A3088880076D5A4 /* CategoryViewController.m in Sources */,
+				FD6B488E1A3088880076D5A4 /* ProductFormViewController.m in Sources */,
+				FD6B488F1A3088880076D5A4 /* users_icon@2x.png in Sources */,
+				FD6B48901A3088880076D5A4 /* AppDelegate.m in Sources */,
+				FD6B48911A3088880076D5A4 /* MasterViewController.m in Sources */,
+				FD6B48921A3088880076D5A4 /* ProductsViewController.m in Sources */,
+				FD6B48931A3088880076D5A4 /* POSCategory.m in Sources */,
+				FD6B48941A3088880076D5A4 /* SaleInvoiceDetailsInput.m in Sources */,
+				FD6B48951A3088880076D5A4 /* POSProductHistory.m in Sources */,
+				FD6B48961A3088880076D5A4 /* POSMetaFormViewController.m in Sources */,
+				FD6B48971A3088880076D5A4 /* POSLessOther.m in Sources */,
+				FD6B48981A3088880076D5A4 /* I3DragBetweenHelper.m in Sources */,
+				FD6B48991A3088880076D5A4 /* main.m in Sources */,
+				FD6B489A1A3088880076D5A4 /* DetailViewController.m in Sources */,
+				FD6B489B1A3088880076D5A4 /* TransactionsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1272,6 +1676,48 @@
 			};
 			name = Release;
 		};
+		FD6B48EB1A3088880076D5A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "pos/pos-Prefix.pch";
+				INFOPLIST_FILE = "pos copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "pos copy";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FD6B48EC1A3088880076D5A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "pos/pos-Prefix.pch";
+				INFOPLIST_FILE = "pos copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "pos copy";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1298,6 +1744,15 @@
 			buildConfigurations = (
 				7D38842F18A372EC00F6B5FB /* Debug */,
 				7D38843018A372EC00F6B5FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD6B48EA1A3088880076D5A4 /* Build configuration list for PBXNativeTarget "pos copy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD6B48EB1A3088880076D5A4 /* Debug */,
+				FD6B48EC1A3088880076D5A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

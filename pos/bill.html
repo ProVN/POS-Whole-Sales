@@ -43,37 +43,45 @@
 				{tbody}
 			<tbody>			
 		</table>
-	<div style="float:left; text-align:left">
-		<u>Sale Person:</u>{sale_person}<br/>
-		<u>Contact:</u>	
-		<br/><br/><br/>
-		No claims accept<br/>
-		after 24 hours
-	</div>	
-	<div style="float:right">
-		<table>
-			<tr>
-				<td style="border:none; text-align:left">Dismount</td>
-				<td style="text-align:right; width:110px; border:none">{dismount}</td>
-			</tr>
-			<tr>
-				<td style="border:none; text-align:left"><b><u>TOTAL</u></b></td>
-				<td style="text-align:right; border:none"><b>{total}</b></td>
-			</tr>
-			<tr>
-				<td style="border:none; text-align:left">GST inc</td>
-				<td style="text-align:right; border:none">{gst}</td>
-			</tr>
-			<tr>
-				<td style="border:none; text-align:left">Paid</td>
-				<td style="text-align:right; border:none">{paid}</td>
-			</tr>
-			<tr>
-				<td style="border:none; text-align:left"><b><u>BALANCE</u></b></td>
-				<td style="text-align:right; border:none"><b>{balance}</b></td>
-			</tr>
-		<table>
-	</div>	
-	</div>
-	</body>	
+        <div>
+            <div style="float:left; text-align:left">
+                <u>Sale Person:</u>{sale_person}<br/>
+                <u>Contact:</u>
+                <br/><br/><br/>
+                No claims accept<br/>
+                after 24 hours
+            </div>
+              <table style="float:right; width: 220px">
+                    <tr>
+                        <td style="border:none; text-align:left">Discount</td>
+                        <td style="text-align:right; width:110px; border:none">{dismount}</td>
+                    </tr>
+                    <tr>
+                        <td style="border:none; text-align:left"><b><u>TOTAL</u></b></td>
+                        <td style="text-align:right; border:none"><b>{total}</b></td>
+                    </tr>
+                    <tr>
+                        <td style="border:none; text-align:left">GST inc</td>
+                        <td style="text-align:right; border:none">{gst}</td>
+                    </tr>
+                    <tr>
+                        <td style="border:none; text-align:left">Paid</td>
+                        <td style="text-align:right; border:none">{paid}</td>
+                    </tr>
+                    <tr>
+                        <td style="border:none; text-align:left"><b><u>BALANCE</u></b></td>
+                        <td style="text-align:right; border:none"><b>{balance}</b></td>
+                    </tr>
+                <table>
+        <div style="clear:both"/>
+        </div>
+    </div>
+    
+    
+    <div style="width:415px; text-align:center; float:left">
+        {footer}
+    </div>
+
+
+   	</body>
 </html>

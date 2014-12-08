@@ -76,6 +76,8 @@
         default:
             break;
     }
+    NSPredicate *predidate = [NSPredicate predicateWithFormat:@"Status=%@",[NSNumber numberWithBool:YES]];
+    datasource = [[datasource filteredArrayUsingPredicate:predidate] mutableCopy];
 
     [self setContentSize:[POSCommon isLandscapeMode]];
 }
@@ -153,30 +155,16 @@
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
     UserCollectionItemView *cell;
-    
-    if([cells count])
-    {
-        cell = [cells lastObject];
-        [cells removeLastObject];
-    }
-    else
+//    
+//    if([cells count])
+//    {
+//        cell = [cells lastObject];
+//        [cells removeLastObject];
+//    }
+//    else
         cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"UserCollectionItemView" forIndexPath:indexPath];
     switch (self.contactType) {
-        case ContactTypeCustomer:
-        {
-            POSCustomer *customer = [datasource objectAtIndex:indexPath.item];
-            
-            NSPredicate *predicate = [NSPredicate predicateWithFormat:@"CustID=%@",customer.Id];
-            NSMutableArray* saleInvoices = [[[DBCaches sharedInstant].saleInvoices filteredArrayUsingPredicate:predicate] mutableCopy];
-            float balance = 0;
-            for (POSSaleInvoice *invoice in saleInvoices) {
-                balance +=  [invoice.Balance floatValue];
-            }
-            customer.CurrentBalance = [NSNumber numberWithFloat:balance];
-            cell.person = customer;
-            break;
-        }
-        case ContactTypeSuppplier:
+              case ContactTypeSuppplier:
         {
             POSSupplier *supplier = [datasource objectAtIndex:indexPath.item];
             
@@ -192,7 +180,21 @@
 
         }
         default:
+        case ContactTypeCustomer:
+        {
+            POSCustomer *customer = [datasource objectAtIndex:indexPath.item];
+            
+            NSPredicate *predicate = [NSPredicate predicateWithFormat:@"CustID=%@",customer.Id];
+            NSMutableArray* saleInvoices = [[[DBCaches sharedInstant].saleInvoices filteredArrayUsingPredicate:predicate] mutableCopy];
+            float balance = 0;
+            for (POSSaleInvoice *invoice in saleInvoices) {
+                balance +=  [invoice.Balance floatValue];
+            }
+            customer.CurrentBalance = [NSNumber numberWithFloat:balance];
+            cell.person = customer;
             break;
+        }
+
     }
     cell.backgroundColor = [UIColor clearColor];
     return cell;

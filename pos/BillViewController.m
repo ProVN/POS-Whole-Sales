@@ -25,15 +25,21 @@
 - (void)viewDidLoad {
    self.navigationController.view.superview.bounds = CGRectMake(0, 0, 450, 700);
     [super viewDidLoad];
+    
+    NSString* footer_path = [[NSBundle mainBundle] pathForResource:@"footer_melbourne" ofType:@"html"];
+    NSString* footer = [NSString stringWithContentsOfFile:footer_path encoding:NSUTF8StringEncoding error:nil];
+    
+    if([DBManager sharedInstant].dbIndex == 0) {
+        footer_path = [[NSBundle mainBundle] pathForResource:@"footer_sysney" ofType:@"html"];
+        footer = [NSString stringWithContentsOfFile:footer_path encoding:NSUTF8StringEncoding error:nil];
+    }
+    
     NSString* template_path = [[NSBundle mainBundle] pathForResource:@"bill" ofType:@"html"];
     NSString* template = [NSString stringWithContentsOfFile:template_path encoding:NSUTF8StringEncoding error:nil];
     NSString* style_path = [[NSBundle mainBundle] pathForResource:@"style" ofType:@"css"];
     NSString* style = [NSString stringWithContentsOfFile:style_path encoding:NSUTF8StringEncoding error:nil];
     html = [NSMutableString stringWithString:template];
     [html replaceOccurrencesOfString:@"{style}" withString:style options:NSLiteralSearch range:NSMakeRange(0, html.length)];
-    
-    
-    
     NSString *content = @"";
     if(self.transactionType == TransactionTypeSale)
     {
@@ -76,6 +82,7 @@
 
     [html replaceOccurrencesOfString:@"{to_from}" withString:self.toFrom options:NSLiteralSearch range:NSMakeRange(0, html.length)];
      [html replaceOccurrencesOfString:@"{contact_company_name}" withString:self.customerName options:NSLiteralSearch range:NSMakeRange(0, html.length)];
+    [html replaceOccurrencesOfString:@"{footer}" withString:footer options:NSLiteralSearch range:NSMakeRange(0, html.length)];
 
     [self.webView loadHTMLString:html baseURL:[[NSBundle mainBundle] bundleURL]];
     // Do any additional setup after loading the view from its nib.
